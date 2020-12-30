@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="example.ios.Tests.FollowLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLinkTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- example.ios.Tests.FollowLinkTest -->
+      <class name="example.android.Tests.FollowLinkTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- example.android.Tests.FollowLinkTest -->
+      <class name="example.android.Tests.TextInputTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- example.android.Tests.TextInputTest -->
+      <class name="example.ios.Tests.TextInputTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- example.ios.Tests.TextInputTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

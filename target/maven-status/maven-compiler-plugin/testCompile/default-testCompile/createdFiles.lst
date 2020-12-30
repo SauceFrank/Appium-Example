@@ -1,0 +1,8 @@
+example/android/Tests/FollowLinkTest.class
+example/ios/Tests/FollowLinkTest.class
+example/android/Pages/GuineaPigPage.class
+example/android/Tests/TextInputTest.class
+example/android/Tests/TestBase.class
+example/ios/Pages/GuineaPigPage.class
+example/ios/Tests/TestBase.class
+example/ios/Tests/TextInputTest.class
